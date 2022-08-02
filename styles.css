@@ -76,7 +76,7 @@
 }
 
 .info-box {
-    margin-top: 30px;
+    margin: 50px 0px 100px 0px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -110,4 +110,26 @@
     height: 200px;
     border: 4px solid #3882F6;
     border-radius: 20px;
+}
+
+.testimonial-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 400px 100px 400px;
+}
+
+.testimonial-quote {
+    
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.testimonial-name {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
 }
