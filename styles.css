@@ -7,7 +7,7 @@
     display: flex;
     padding-top: 15px;
     background-color: #1F2937;
-    padding: 25px 300px 25px 300px;
+    padding: 25px 300px;
 }
 
 .logo-text {
@@ -59,8 +59,9 @@
 .button {
     display: flex;
     width: fit-content;
+    height: fit-content;
     justify-content: center;
-    padding: 8px 30px 8px 30px;
+    padding: 8px 30px;
     font-size: 18px;
     font-weight: bold;
     color: #F9FAF8;
@@ -117,7 +118,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 100px 400px 100px 400px;
+    padding: 100px 400px;
 }
 
 .testimonial-quote {
@@ -131,4 +132,42 @@
     font-size: 24px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.act-now-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 300px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.act-now-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.act-now-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.act-now-subtext {
+    color: hsl(0, 0%, 85%);
+    font-size: 18px;
+}
+
+.act-now-box .button {
+    border: 2px solid white;
+}
+
+.footer {
+    padding: 35px;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
